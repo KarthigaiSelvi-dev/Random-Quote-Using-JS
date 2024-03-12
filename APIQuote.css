@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+  font-family: 'Times New Roman', Times, serif;
+      background-color: #dfdbe5;
+      background-image: url("http://getwallpapers.com/wallpaper/full/6/4/f/531090.jpg");
+     
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      background-color: rgba(96, 78, 78, 0.3);.controls {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 10px;
+        }
+    }
+    /*To center our main container, we need to give display: flex property to the body tag.*/
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      /* rest of the CSS properties */
+  }
+  
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+  }
+  .twitter
+  {
+      border:1px solid rgb(65, 164, 230);
+      border-radius: 4px;
+      background-color: rgb(65, 164, 230);
+      color: white;
+      text-align: center;
+      font-size: 1.8em;
+      width: 60px;
+      height: 35px;
+      line-height: 40px;
+  }
+  .new-quote-btn {
+    cursor: pointer;
+    border: none;
+    color: #f2f5f6;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:#2c5b1f;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+    .quote {
+      text-align: center;
+      font-style:normal;
+      text-decoration-color: rgb(87, 87, 87);
+  
+    }
+    
+    .author {
+      color:wheat;
+      font-size: 20px;
+    }
+    hr {
+      margin: 10px 0;
+      width: 60%;
+      border: 1px solid #7bc82e88;
+    }
+          
+  
